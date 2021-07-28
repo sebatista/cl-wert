@@ -9,7 +9,7 @@
    :alt: License: AGPL-3
 
 ============
-TEMPLATE V13
+Wert Capital S.A. V13
 ============
 
 

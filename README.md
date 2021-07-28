@@ -1,2 +1,2 @@
 # cl-template
-Project template
+Project Wert Capital S.A.
