@@ -67,9 +67,9 @@
     'port': '8069',
 
     'git-repos': [
-        'git@github.com:sebatista/cl-wert.git',
-        'git@github.com:jobiols/odoo-jeo-ce.git',
-        'git@github.com:jobiols/odoo-private-addons.git',
+        'https://github.com/sebatista/cl-wert.git',
+        'https://github.com/jobiols/odoo-jeo-ce.git',
+        'https://github.com/jobiols/odoo-private-addons.git',
 
         # OCA
         'https://github.com/OCA/server-tools oca-server-tools',
@@ -158,10 +158,7 @@
         # ingadhoc
         'https://github.com/ingadhoc/product ingadhoc-product',
 
-        # Cambiamos por el de filoquin
-        #'https://github.com/ingadhoc/odoo-argentina ingadhoc-odoo-argentina',
-        'https://github.com/filoquin/odoo-argentina-ce.git -b 13.0_qr',
-
+        'https://github.com/ingadhoc/odoo-argentina-ce.git ingadhoc-odoo-argentina-ce',
         'https://github.com/ingadhoc/miscellaneous ingadhoc-miscellaneous',
         'https://github.com/ingadhoc/sale ingadhoc-sale',
         'https://github.com/ingadhoc/purchase ingadhoc-purchase',
@@ -193,6 +190,6 @@
     'docker-images': [
         'odoo jobiols/odoo-jeo:13.0',
         'postgres postgres:10.1-alpine',
-        'nginx nginx'
+        'nginx nginx',
     ]
 }
