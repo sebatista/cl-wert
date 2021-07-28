@@ -24,7 +24,7 @@
     'category': 'Tools',
     'summary': "Wert for v13 CE",
     'author': "jeo Software",
-    'website': 'http://github.com/jobiols/cl-test',
+    'website': 'http://github.com/jobiols/cl-wert',
     'license': 'AGPL-3',
     'depends': [
         'standard_depends_ce'
