@@ -71,10 +71,6 @@
         'https://github.com/jobiols/odoo-jeo-ce.git',
         'https://github.com/jobiols/odoo-private-addons.git',
 		
-
-        # Moldeo
-		#=======
-		'https://github.com/ctmil/odoo-argentina moldeo-odoo-argentina'
 		
         # OCA
 		#====
@@ -164,9 +160,9 @@
         # ingadhoc
 		# ========
 		
-        # Fix porque falla la instalacion de l10n_ar_ux
-        'https://github.com/ingadhoc/odoo-argentina ingadhoc-odoo-argentina',
-		
+	   #'https://github.com/ctmil/odoo-argentina moldeo-odoo-argentina' 		#Moldeo
+	   #'https://github.com/jobiols/odoo-argentina jobiols-odoo-argentina', 	#Jobiols
+        'https://github.com/ingadhoc/odoo-argentina ingadhoc-odoo-argentina', 	#Fix porque falla la instalacion de l10n_ar_ux
         'https://github.com/ingadhoc/odoo-argentina-ce ingadhoc-odoo-argentina-ce',
 		
         'https://github.com/ingadhoc/product ingadhoc-product',
