@@ -156,9 +156,14 @@
         #'https://github.com/OCA/stock-logistics-reporting oca-stock-logistics-reporting',
 
         # ingadhoc
+		# ========
+		
+        # Fix porque falla la instalacion de l10n_ar_ux
+        'https://github.com/ingadhoc/odoo-argentina ingadhoc-odoo-argentina',
+		
+        'https://github.com/ingadhoc/odoo-argentina-ce ingadhoc-odoo-argentina-ce',
+		
         'https://github.com/ingadhoc/product ingadhoc-product',
-
-        'https://github.com/ingadhoc/odoo-argentina-ce.git ingadhoc-odoo-argentina-ce',
         'https://github.com/ingadhoc/miscellaneous ingadhoc-miscellaneous',
         'https://github.com/ingadhoc/sale ingadhoc-sale',
         'https://github.com/ingadhoc/purchase ingadhoc-purchase',
@@ -174,7 +179,6 @@
         'https://github.com/ingadhoc/argentina-reporting ingadhoc-argentina-reporting',
         'https://github.com/ingadhoc/partner ingadhoc-partner',
         'https://github.com/ingadhoc/reporting-engine ingadhoc-reporting-engine',
-        'https://github.com/ingadhoc/odoo-argentina-ce ingadhoc-odoo-argentina-ce',
         #'https://github.com/ingadhoc/manufacture ingadhoc-manufacture',
         #'https://github.com/ingadhoc/multi-store ingadhoc-multi-store',
         #'https://github.com/ingadhoc/hr ingadhoc-hr',
