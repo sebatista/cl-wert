@@ -70,8 +70,14 @@
         'https://github.com/sebatista/cl-wert.git',
         'https://github.com/jobiols/odoo-jeo-ce.git',
         'https://github.com/jobiols/odoo-private-addons.git',
+		
 
+        # Moldeo
+		#=======
+		'https://github.com/ctmil/odoo-argentina moldeo-odoo-argentina'
+		
         # OCA
+		#====
         'https://github.com/OCA/server-tools oca-server-tools',
         'https://github.com/OCA/stock-logistics-workflow oca-stock-logistics-workflow',
         'https://github.com/OCA/sale-workflow oca-sale-workflow',
