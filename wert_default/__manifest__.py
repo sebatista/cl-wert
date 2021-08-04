@@ -27,7 +27,57 @@
     'website': 'http://github.com/jobiols/cl-wert',
     'license': 'AGPL-3',
     'depends': [
-        'standard_depends_ce'
+        'standard_depends_ce',
+
+        'sale',
+        'sale_management',
+        'purchase',
+
+        #Contabilidad
+        'account',
+        'account_bank_statement_import',
+        'account_check',
+        'account_debit_note',
+        'account_debt_report',
+        'account_facturx',
+        'account_financial_amount',
+        'account_financial_report',
+        'account_payment_fix',
+        'account_payment_group',
+        'account_payment_group_document',
+        'account_withholding',
+        'account_withholding_automatic',
+        'analytic',
+        'account_statement_aeroo_report',
+        'account_statement_move_import',
+        'account_ux',
+
+        #Reportes
+        'report_extended',
+        'report_extended_account',
+        'report_extended_payment_group',
+        'report_extended_purchase',
+        'report_extended_sale',
+        'accounting_pdf_reports',
+        'report_aeroo',
+        'report_xlsx',
+
+        #Localización
+        'l10n_ar_afipws',
+        'l10n_ar_afipws_fe',
+        'l10n_ar_bank',
+        'l10n_ar_reports',
+        'l10n_ar_sale',
+        'l10n_ar_ux',
+        'l10n_latam_base',
+        'l10n_ar',
+        'l10n_ar_account_withholding',
+        'l10n_latam_invoice_document',
+        'l10n_ar_aeroo_base',
+
+
+
+
         ],
     'installable': True,
 
@@ -190,6 +240,10 @@
 
         # Odoomates
         'https://github.com/odoomates/odooapps odoomates-odooapps',
+
+        # Gabriela Rivero
+        # ===============
+        'https://github.com/regaby/odoo-custom regaby-odoo-custom',
     ],
 
     # list of images to use in the form 'name image-url'
