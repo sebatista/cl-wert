@@ -74,7 +74,7 @@
         'l10n_ar_account_withholding',
         'l10n_latam_invoice_document',
         'l10n_ar_aeroo_base',
-
+		'padron_afip',
 
 
 
@@ -239,6 +239,7 @@
         #'https://github.com/ingadhoc/project ingadhoc-project',
 
         # Odoomates
+        # ===============
         'https://github.com/odoomates/odooapps odoomates-odooapps',
 
         # Gabriela Rivero
