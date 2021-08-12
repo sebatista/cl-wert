@@ -122,8 +122,7 @@
         'https://github.com/jobiols/odoo-private-addons.git',
 		
 		
-        # OCA
-        # ===========================================================================
+        # OCA 			# ===========================================================================
         'https://github.com/OCA/server-tools oca-server-tools',
         'https://github.com/OCA/stock-logistics-workflow oca-stock-logistics-workflow',
         'https://github.com/OCA/sale-workflow oca-sale-workflow',
@@ -207,14 +206,12 @@
         #'https://github.com/OCA/project-reporting oca-project-reporting',
         #'https://github.com/OCA/stock-logistics-reporting oca-stock-logistics-reporting',
 
-        # ingadhoc
-        # ===========================================================================
+        # Ing ADHOC 		# ===========================================================================
 		
 	   #'https://github.com/ctmil/odoo-argentina moldeo-odoo-argentina' 		#Moldeo
 	   #'https://github.com/jobiols/odoo-argentina jobiols-odoo-argentina', 	#Jobiols
         'https://github.com/ingadhoc/odoo-argentina ingadhoc-odoo-argentina', 	#Fix porque falla la instalacion de l10n_ar_ux
         'https://github.com/ingadhoc/odoo-argentina-ce ingadhoc-odoo-argentina-ce',
-		
         'https://github.com/ingadhoc/product ingadhoc-product',
         'https://github.com/ingadhoc/miscellaneous ingadhoc-miscellaneous',
         'https://github.com/ingadhoc/sale ingadhoc-sale',
@@ -238,12 +235,10 @@
         'https://github.com/ingadhoc/account-analytic ingadhoc-account-analytic',
         #'https://github.com/ingadhoc/project ingadhoc-project',
 
-        # Odoomates
-        # ===========================================================================
+        # Odoomates 		# ===========================================================================
         'https://github.com/odoomates/odooapps odoomates-odooapps',
 
-        # Gabriela Rivero
-        # ===========================================================================
+        # Gabriela Rivero 	# ===========================================================================
         'https://github.com/regaby/odoo-custom regaby-odoo-custom',
     ],
 
