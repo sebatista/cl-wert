@@ -123,7 +123,7 @@
 		
 		
         # OCA
-		#====
+        # ===========================================================================
         'https://github.com/OCA/server-tools oca-server-tools',
         'https://github.com/OCA/stock-logistics-workflow oca-stock-logistics-workflow',
         'https://github.com/OCA/sale-workflow oca-sale-workflow',
@@ -208,7 +208,7 @@
         #'https://github.com/OCA/stock-logistics-reporting oca-stock-logistics-reporting',
 
         # ingadhoc
-		# ========
+        # ===========================================================================
 		
 	   #'https://github.com/ctmil/odoo-argentina moldeo-odoo-argentina' 		#Moldeo
 	   #'https://github.com/jobiols/odoo-argentina jobiols-odoo-argentina', 	#Jobiols
@@ -239,11 +239,11 @@
         #'https://github.com/ingadhoc/project ingadhoc-project',
 
         # Odoomates
-        # ===============
+        # ===========================================================================
         'https://github.com/odoomates/odooapps odoomates-odooapps',
 
         # Gabriela Rivero
-        # ===============
+        # ===========================================================================
         'https://github.com/regaby/odoo-custom regaby-odoo-custom',
     ],
 
