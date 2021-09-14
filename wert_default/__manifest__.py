@@ -123,8 +123,8 @@
 
     'git-repos': [
         'https://github.com/sebatista/cl-wert.git',
-        'https://github.com/jobiols/odoo-jeo-ce.git',
-        'https://github.com/jobiols/odoo-private-addons.git',
+        'https://github.com/jobiols/odoo-jeo-ce',
+        'https://github.com/jobiols/odoo-private-addons',
 		
 		
         # OCA 			# ===========================================================================
@@ -157,7 +157,7 @@
         'https://github.com/OCA/bank-payment oca-bank-payment',
         'https://github.com/OCA/account-invoice-reporting oca-account-invoice-reporting',
         #'https://github.com/OCA/timesheet oca-timesheet',
-        #'https://github.com/OCA/web oca-web',
+        'https://github.com/OCA/web oca-web',
         'https://github.com/OCA/account-financial-tools oca-account-financial-tools',
         'https://github.com/OCA/sale-reporting oca-sale-reporting',
         'https://github.com/OCA/account-financial-reporting oca-account-financial-reporting',
