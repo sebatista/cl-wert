@@ -112,6 +112,11 @@
         # immediately killed without waiting for the end of the current request
         # processing. Defaults to 768MB.
                 'limit_memory_hard = 2684354560',
+				
+				
+				'limit_time_cpu = 600',
+
+				'limit_time_real = 1200',
     ],
 
     'port': '8069',
