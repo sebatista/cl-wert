@@ -29,9 +29,11 @@
     'depends': [
         'standard_depends_ce',
 
+		# Principales
         'sale',
         'sale_management',
         'purchase',
+		'board',
 
         #Contabilidad
         'account',
@@ -75,56 +77,20 @@
         'l10n_latam_invoice_document',
         'l10n_ar_aeroo_base',
 		'padron_afip',
-
+		'l10n_ar_export_arba',
+		
+		# Visual
+		'backend_theme_v13',
 
 
         ],
     'installable': True,
 
-    # manifest version, if omitted it is backward compatible
-    'env-ver': '2',
-
-    # if Enterprise it installs in a different directory than community
-    'odoo-license': 'CE',
-
-    # Config to write in odoo.conf
-    'config': [
-
-        # 'addons_path' is always computed looking for the repositories in sources
-        # 'data_dir' is a fixed location inside docker odoo image
-
-        # You should use 2 worker threads + 1 cron thread per available CPU,
-        # and 1 CPU per 10 concurent users.
-        # if ommited oe will calculate workers and cron´s based on # of cpu
-                'workers = 5',
-                'max_cron_threads = 1',
-
-        # Number of requests a worker will process before being recycled and
-        # restarted. Defaults to 8192 if ommited
-                'limit_request = 8192',
-
-        # Maximum allowed virtual memory per worker. If the limit is exceeded,
-        # the worker is killed and recycled at the end of the current request.
-        # Defaults to 640MB
-                'limit_memory_soft = 2147483648',
-
-        # Hard limit on virtual memory, any worker exceeding the limit will be
-        # immediately killed without waiting for the end of the current request
-        # processing. Defaults to 768MB.
-                'limit_memory_hard = 2684354560',
-				
-				
-				'limit_time_cpu = 600',
-
-				'limit_time_real = 1200',
-    ],
-
-    'port': '8069',
-
     'git-repos': [
         'https://github.com/sebatista/cl-wert.git',
         'https://github.com/jobiols/odoo-jeo-ce',
         'https://github.com/jobiols/odoo-private-addons',
+		'https://github.com/jobiols/odoo-addons jeo-odoo-addons',
 		
 		
         # OCA 			# ===========================================================================
@@ -250,10 +216,51 @@
 		'https://github.com/Openworx/backend_theme ow-backend_theme',
     ],
 
+    # manifest version, if omitted it is backward compatible
+    'env-ver': '2',
+
+    # if Enterprise it installs in a different directory than community
+    'odoo-license': 'CE',
+
+    # Config to write in odoo.conf
+    'config': [
+
+        # 'addons_path' is always computed looking for the repositories in sources
+        # 'data_dir' is a fixed location inside docker odoo image
+
+        # You should use 2 worker threads + 1 cron thread per available CPU,
+        # and 1 CPU per 10 concurent users.
+        # if ommited oe will calculate workers and cron´s based on # of cpu
+                'workers = 5',
+                'max_cron_threads = 1',
+
+        # Number of requests a worker will process before being recycled and
+        # restarted. Defaults to 8192 if ommited
+                'limit_request = 8192',
+
+        # Maximum allowed virtual memory per worker. If the limit is exceeded,
+        # the worker is killed and recycled at the end of the current request.
+        # Defaults to 640MB
+                'limit_memory_soft = 2147483648',
+
+        # Hard limit on virtual memory, any worker exceeding the limit will be
+        # immediately killed without waiting for the end of the current request
+        # processing. Defaults to 768MB.
+                'limit_memory_hard = 2684354560',
+				
+				
+				'limit_time_cpu = 600',
+
+				'limit_time_real = 1200',
+    ],
+
+    'port': '8069',
+
     # list of images to use in the form 'name image-url'
     'docker-images': [
         'odoo jobiols/odoo-jeo:13.0',
         'postgres postgres:10.1-alpine',
         'nginx nginx',
     ]
+	
 }
