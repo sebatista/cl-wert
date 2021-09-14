@@ -245,6 +245,9 @@
 
         # Gabriela Rivero 	# ===========================================================================
         'https://github.com/regaby/odoo-custom regaby-odoo-custom',
+		
+		# OpenWorx			# ===========================================================================
+		'https://github.com/Openworx/backend_theme ow-backend_theme',
     ],
 
     # list of images to use in the form 'name image-url'
