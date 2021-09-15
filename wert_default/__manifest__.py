@@ -34,6 +34,7 @@
         'sale_management',
         'purchase',
 		'board',
+		'base_ux',
 
         #Contabilidad
         'account',
