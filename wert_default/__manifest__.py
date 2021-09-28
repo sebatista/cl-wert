@@ -79,6 +79,7 @@
         'l10n_ar_aeroo_base',
 		'padron_afip',
 		'l10n_ar_export_arba',
+		'l10n_ar_export_sicore',
 		
 		# Visual
 		'backend_theme_v13',
